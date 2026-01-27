@@ -26,7 +26,7 @@ export default async function Home() {
         MoodTrip 🌍
       </h1>
 
-      <p className="text-white/80 text-lg md:text-xl text-center max-w-2xl mb-12 drop-shadow-md">
+      <p className="text-gray-900 text-lg md:text-xl text-center max-w-2xl mb-12 drop-shadow-md">
         Choisissez votre humeur et nous trouverons votre destination idéale. ✨
       </p>
 

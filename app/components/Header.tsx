@@ -20,7 +20,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto flex justify-between items-center p-4">
         {/* Logo */}
         <Link href="/" className="text-2xl font-bold">
-          ✈️ TravelMood
+          ✈️ MoodTrip
         </Link>
 
         {/* Menu desktop */}
