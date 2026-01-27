@@ -1,7 +1,7 @@
 export const moods = {
   relax: [
     { city: "Bali", lat: -8.34054, lon: 115.09195, description: "Plages paradisiaques, temples et ambiance zen." },
-    { city: "Maldives (Male)", lat: 4.17549, lon: 73.50931, description: "Îles idylliques, eau turquoise et bungalows sur pilotis." },
+    { city: "Maldives", lat: 4.17549, lon: 73.50931, description: "Îles idylliques, eau turquoise et bungalows sur pilotis." },
     { city: "Phuket", lat: 7.88044, lon: 98.39209, description: "Plages, snorkeling et détente sous les palmiers." },
     { city: "Seychelles", lat: -4.6796, lon: 55.4920, description: "Nature sauvage, plages de sable blanc et tranquillité." },
     { city: "Maurice", lat: -20.3484, lon: 57.5522, description: "Lagons turquoise, jardins tropicaux et farniente." },
@@ -9,11 +9,11 @@ export const moods = {
   ],
   adventure: [
     { city: "Patagonia", lat: -49.3, lon: -72.9, description: "Montagnes, glaciers et paysages à couper le souffle." },
-    { city: "Iceland (Reykjavik)", lat: 64.1500, lon: -21.9000, description: "Volcans, geysers et aventures en plein air." },
-    { city: "Nepal (Katmandou)", lat: 27.7172, lon: 85.3240, description: "Trekking, Himalaya et découvertes culturelles." },
-    { city: "Costa Rica", lat: 9.7489, lon: -83.7534, description: "Forêts tropicales, volcans et sports extrêmes." },
-    { city: "New Zealand (Queenstown)", lat: -45.0312, lon: 168.6626, description: "Aventure, sports nautiques et montagnes." },
-    { city: "Canada (Whistler)", lat: 50.1163, lon: -122.9574, description: "Ski, randonnées et nature spectaculaire." },
+    { city: "Iceland", lat: 64.1500, lon: -21.9000, description: "Volcans, geysers et aventures en plein air." },
+    { city: "Nepal", lat: 27.7172, lon: 85.3240, description: "Trekking, Himalaya et découvertes culturelles." },
+    { city: "Costa-Rica", lat: 9.7489, lon: -83.7534, description: "Forêts tropicales, volcans et sports extrêmes." },
+    { city: "New-Zealand", lat: -45.0312, lon: 168.6626, description: "Aventure, sports nautiques et montagnes." },
+    { city: "Canada", lat: 50.1163, lon: -122.9574, description: "Ski, randonnées et nature spectaculaire." },
   ],
   romantic: [
     { city: "Paris", lat: 48.8566, lon: 2.3522, description: "Cité de l’amour, musées et cafés charmants." },
@@ -25,15 +25,15 @@ export const moods = {
   ],
   nature: [
     { city: "Banff", lat: 51.1784, lon: -115.5708, description: "Montagnes, lacs turquoise et randonnées." },
-    { city: "Swiss Alps", lat: 46.8876, lon: 9.6570, description: "Sommets enneigés et villages pittoresques." },
-    { city: "Norway (Oslo)", lat: 59.93, lon: 10.75, description: "Fjords spectaculaires et nature sauvage." },
+    { city: "Swiss-Alps", lat: 46.8876, lon: 9.6570, description: "Sommets enneigés et villages pittoresques." },
+    { city: "Norway", lat: 59.93, lon: 10.75, description: "Fjords spectaculaires et nature sauvage." },
     { city: "Yosemite", lat: 37.8651, lon: -119.5383, description: "Parc national avec cascades et falaises." },
-    { city: "Amazon Rainforest (Manaus)", lat: -3.1190, lon: -60.0217, description: "Forêt tropicale, biodiversité incroyable." },
-    { city: "Iceland (Thingvellir)", lat: 64.2550, lon: -21.1300, description: "Parc naturel, rivières et volcans." },
+    { city: "Amazonie", lat: -3.1190, lon: -60.0217, description: "Forêt tropicale, biodiversité incroyable." },
+    { city: "Iceland", lat: 64.2550, lon: -21.1300, description: "Parc naturel, rivières et volcans." },
   ],
   city: [
     { city: "Tokyo", lat: 35.6762, lon: 139.6503, description: "Ville ultra-moderne avec culture traditionnelle." },
-    { city: "New York", lat: 40.71427, lon: -74.00597, description: "Gratte-ciels, musées et vie nocturne animée." },
+    { city: "New-York", lat: 40.71427, lon: -74.00597, description: "Gratte-ciels, musées et vie nocturne animée." },
     { city: "Seoul", lat: 37.5665, lon: 126.9780, description: "Technologie, palais et street food." },
     { city: "London", lat: 51.5074, lon: -0.1278, description: "Histoire, musées et balades le long de la Tamise." },
     { city: "Paris", lat: 48.8566, lon: 2.3522, description: "Architecture, cafés et romantisme." },
@@ -41,9 +41,9 @@ export const moods = {
   ],
   fun: [
     { city: "Barcelona", lat: 41.3851, lon: 2.1734, description: "Plages, tapas et architecture Gaudi." },
-    { city: "Rio de Janeiro", lat: -22.9250, lon: -43.1822, description: "Carnaval, plages et samba." },
+    { city: "Rio-De-Janeiro", lat: -22.9250, lon: -43.1822, description: "Carnaval, plages et samba." },
     { city: "Bangkok", lat: 13.7563, lon: 100.5018, description: "Temples, marchés et vie nocturne animée." },
-    { city: "Las Vegas", lat: 36.1699, lon: -115.1398, description: "Casinos, spectacles et divertissements." },
+    { city: "Las-Vegas", lat: 36.1699, lon: -115.1398, description: "Casinos, spectacles et divertissements." },
     { city: "Amsterdam", lat: 52.3676, lon: 4.9041, description: "Canaux, musées et ambiance festive." },
     { city: "Miami", lat: 25.7617, lon: -80.1918, description: "Plages, fêtes et soleil toute l’année." },
   ],

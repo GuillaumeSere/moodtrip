@@ -6,7 +6,7 @@ import CityMap from "@/app/components/CityMap";
 import DestinationCard from "@/app/components/DestinationCard";
 
 type Props = {
-    params: { mood: string };
+  params: Promise<{ mood: string }>;
 };
 
 export default async function DestinationPage({ params }: Props) {

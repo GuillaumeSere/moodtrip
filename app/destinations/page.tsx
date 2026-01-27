@@ -83,6 +83,7 @@ export default async function DestinationPage() {
                                         image={dest.image}
                                         weather={dest.weather}
                                         description={dest.description}
+                                        slug={`/destinations/${dest.mood}/${dest.city.toLowerCase()}`}
                                     />
                                 ))}
                             </div>

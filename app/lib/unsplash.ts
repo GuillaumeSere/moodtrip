@@ -23,7 +23,7 @@ return data.results[0].urls.regular;
 
 // lib/unsplash.ts
 export async function getRandomBackground() {
-  const topics = ["travel", "nature", "city", "beach", "mountain", "adventure"];
+  const topics = ["travel", "nature", "city", "beach", "mountain", "adventure", "sunset"];
   const topic = topics[Math.floor(Math.random() * topics.length)];
 
   const res = await fetch(
