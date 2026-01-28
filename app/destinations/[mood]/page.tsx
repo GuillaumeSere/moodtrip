@@ -23,13 +23,13 @@ export default async function DestinationPage({ params }: Props) {
 
     return (
         <main className="min-h-screen pt-30 bg-linear-to-br from-slate-400 to-slate-700 text-white flex flex-col items-center">
-            <div className="max-w-4xl w-full">
+            <div className="max-w-4xl px-6 w-full">
 
-                <h1 className="text-4xl md:text-5xl font-bold mb-6 capitalize">
+                <h1 className="text-xl md:text-3xl font-bold mb-6 capitalize">
                     Ambiance  {mood} → {random.city}
                 </h1>
 
-                <p className="text-white/80 text-lg mb-2">
+                <p className="text-white/80 text-lg md:text-xl mb-2">
                     Une destination parfaite pour une ambiance <span className="capitalize font-semibold">{mood}</span> vibe ✨
                 </p>
 

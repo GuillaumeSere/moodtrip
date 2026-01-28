@@ -27,7 +27,7 @@ export default function DestinationCard({ city, mood, image, weather, descriptio
 
       {/* Contenu */}
       <div className="relative h-60 flex  flex-col justify-end p-6">
-        <h2 className="text-2xl font-bold text-white drop-shadow-lg capitalize">
+        <h2 className="text-xl md:text-3xl font-bold text-white drop-shadow-lg capitalize">
           {mood} → {city}
         </h2>
         {description && (
